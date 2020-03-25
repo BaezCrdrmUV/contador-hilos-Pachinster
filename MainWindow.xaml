@@ -1,0 +1,17 @@
+﻿<Window x:Name="Hilos" x:Class="Contadores.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Contadores"
+        mc:Ignorable="d"
+        Title="Hilos" Height="231.999" Width="330">
+	<Grid>
+		<Label x:Name="autoContador" Content="0" HorizontalAlignment="Left" Margin="54,39,0,0" VerticalAlignment="Top" FontSize="36"/>
+		<Label x:Name="contadorManual" Content="0" HorizontalAlignment="Left" Margin="217,39,0,0" VerticalAlignment="Top" FontSize="36"/>
+		<Button x:Name="empezarAutoContador" Content="Contar" HorizontalAlignment="Left" Margin="30,102,0,0" VerticalAlignment="Top" Width="75" Click="empezarAutoContador_Click"/>
+		<Button x:Name="contarManualmente" Content="Sumar 1" HorizontalAlignment="Left" Margin="193,102,0,0" VerticalAlignment="Top" Width="75" Click="contarManualmente_Click"/>
+		<CheckBox x:Name="tieneHilos" Content="Hilos?" HorizontalAlignment="Left" Margin="131,153,0,0" VerticalAlignment="Top"/>
+
+	</Grid>
+</Window>
